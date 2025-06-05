@@ -1,2 +1,35 @@
-title: Test website
-description: Test description
+title: Kancelaria Adwokacka Marzena Litewka
+description: Profesjonalna pomoc prawna w Krakowie. Prawo cywilne, rodzinne, gospodarcze, karne.
+url: "https://marzena-litewka.pl"
+baseurl: "" # leave empty for root
+
+author: Marzena Litewka
+email: adwokat@marzena-litewka.pl
+
+# Social
+social:
+  name: Marzena Litewka
+  links:
+    - https://marzena-litewka.pl
+    - mailto:adwokat@marzena-litewka.pl
+
+# Theme (if you use a Jekyll theme, otherwise comment out)
+# theme: minima
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+exclude:
+  - README.md
+  - node_modules
+  - package.json
+  - package-lock.json
+
+# Plugins (if you use any)
+# plugins:
+#   - jekyll-seo-tag
+#   - jekyll-sitemap
+
+# SEO
+lang: pl
+favicon: /favicon.ico

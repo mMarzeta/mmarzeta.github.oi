@@ -1,176 +1,433 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pl">
 <head>
-  <style>
-    a {
-      text-align: center;
-    }
-    p {
-      font-family: Open Sans,sans-serif;
-      color: #757575;
-      font-size: 15px;
-      text-align: justify;
-      line-height: 1.7;
-    }
-    td{
-      font-family: Open Sans,sans-serif;
-      color: #757575;
-      font-size: 15px;
-      line-height: 1.7;
-    }
-
-    h1 {
-      font-family: Poppins,sans-serif;
-    }
-    h3 {
-      font-family: Poppins,sans-serif;
-      font-weight: 700;
-      line-heigth: 1.2;
-      text-align: center;
-      font-size: 18px;
-    }
-    h6 {
-      font-family: Poppins,sans-serif;
-    }
-
-    .p_class {
-      font-family: Open Sans,sans-serif;
-      color: #757575;
-      font-size: 15px;
-      text-align: justify;
-      line-height: 1.7;
-    }
-
-    .section-title h1 {
-      font-size: 2rem;
-      font-weight: 700;
-      color: #171717;
-    }
-
-    .table {
-      text-align: center;
-    }
-
-    .card {
-      text-align: center;
-    }
-
-    .card > .img{
-      align: center;
-    }
-
-    .table > .td {
-      color: red;
-    }
-
-    label {
-      opacity: 0.5;
-    }
-
-    textarea {
-      opacity: 0.7;
-    }
-
-    .navbar-custom {
-        background-color: #123e08;
-    }
-
-
-    .nav-link {
-      font-size: 72px;
-      background: white;
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-    }
-
-    .nav-link:hover {
-      background: #beaa6d;
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-    }
-
-    .navbar-toggler{
-      border-color: #beaa6d !important;
-    }
-
-    .navbar-toggler-icon{
-      color: white;
-    }
-
-    .custom-toggler .navbar-toggler-icon {
-      background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='white' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
-    }
-
-    .btn-primary {
-        background-color: #123e08 !important;
-        border-color: #123e08 !important;
-    }
-
-    .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
-       color: white !important;
-       background-color: #1f6d0d !important;
-       border-color: #beaa6d !important;
-     }
-
-     .map-container-2{
-       overflow:hidden;
-       padding-bottom:56.25%;
-       position:relative;
-       height:0;
-     }
-     .map-container-2 iframe{
-       left:0;
-       top:0;
-       height:100%;
-       width:100%;
-       position:absolute;
-     }
-
-     .gold_link {
-       background: #757575;
-       -webkit-background-clip: text;
-       -webkit-text-fill-color: transparent;
-     }
-
-     .gold_link:hover {
-       background: #beaa6d;
-       -webkit-background-clip: text;
-       -webkit-text-fill-color: transparent;
-     }
-
-     .border-bottom-gold {
-       border-bottom: 1px solid #beaa6d;
-     }
-
-     a.anchor {
-      display: block;
-      position: relative;
-      top: -100px;
-      visibility: hidden;
-      }
-
-  </style>
-  <title>Kancelaria Marzena Litewka</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Kancelaria Adwokacka Marzena Litewka – Adwokat Kraków, Prawo Cywilne, Rodzinne, Gospodarcze, Karne</title>
+  <meta name="description" content="Kancelaria Adwokacka Marzena Litewka – profesjonalna pomoc prawna w Krakowie. Prawo cywilne, rodzinne, gospodarcze, karne. Skontaktuj się z doświadczonym adwokatem!">
+  <meta name="keywords" content="adwokat Kraków, kancelaria adwokacka, Marzena Litewka, prawo cywilne, prawo rodzinne, prawo gospodarcze, prawo karne, obsługa prawna, prawnik Kraków">
+  <meta name="author" content="Marzena Litewka">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://marzena-litewka.pl/">
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://marzena-litewka.pl/">
+  <meta property="og:title" content="Kancelaria Adwokacka Marzena Litewka – Adwokat Kraków">
+  <meta property="og:description" content="Profesjonalna pomoc prawna w Krakowie. Prawo cywilne, rodzinne, gospodarcze, karne. Skontaktuj się z doświadczonym adwokatem!">
+  <meta property="og:image" content="https://marzena-litewka.pl/hero2.jpeg">
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Kancelaria Adwokacka Marzena Litewka – Adwokat Kraków">
+  <meta name="twitter:description" content="Profesjonalna pomoc prawna w Krakowie. Prawo cywilne, rodzinne, gospodarcze, karne. Skontaktuj się z doświadczonym adwokatem!">
+  <meta name="twitter:image" content="https://marzena-litewka.pl/hero2.jpeg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
-  <link rel="stylesheet"
-        href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap">
-  <link rel="stylesheet"
-        href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap">
-
+  <script defer src="https://topaz-chowchow.pikapod.net/x" data-website-id="6be5e0d5-30da-4a82-ad28-c6fe6ff7d7d2"></script>
+  <style>
+    :root {
+      --primary: #123e08;
+      --primary-dark: #1f6d0d;
+      --accent: #beaa6d;
+      --text-main: #171717;
+      --text-muted: #757575;
+      --bg-main: #fff;
+      --border-radius: 1rem;
+      --transition: 0.2s cubic-bezier(.4,0,.2,1);
+      --shadow: 0 2px 16px 0 rgba(18,62,8,0.07);
+    }
+    html {
+      scroll-behavior: smooth;
+    }
+    body {
+      font-family: 'Open Sans', sans-serif;
+      background: var(--bg-main);
+      color: var(--text-muted);
+      margin: 0;
+      padding: 0;
+    }
+    h1, h3, h5, h6 {
+      font-family: 'Poppins', sans-serif;
+      color: var(--text-main);
+    }
+    h1 {
+      font-size: clamp(2rem, 4vw, 2.8rem);
+      font-weight: 700;
+      margin-bottom: 0.5em;
+    }
+    h3 {
+      font-size: 1.5rem;
+      font-weight: 700;
+      text-align: center;
+      margin-bottom: 1em;
+    }
+    p, td, label, .p_class {
+      font-size: 1rem;
+      color: var(--text-muted);
+      line-height: 1.7;
+      margin-bottom: 1em;
+    }
+    .navbar-custom {
+      background: var(--primary);
+      box-shadow: var(--shadow);
+    }
+    .navbar-brand {
+      height: 48px;
+      display: flex;
+      align-items: center;
+    }
+    .navbar-brand img, #main-logo {
+      filter: drop-shadow(0 2px 8px rgba(0,0,0,0.25));
+      display: block;
+    }
+    .nav-link {
+      font-family: 'Poppins', sans-serif;
+      font-weight: 500;
+      font-size: 1.1rem;
+      color: #fff !important;
+      margin: 0 0.5rem;
+      transition: color var(--transition);
+      position: relative;
+    }
+    .nav-link::after {
+      content: '';
+      display: block;
+      width: 0;
+      height: 2px;
+      background: var(--accent);
+      transition: width var(--transition);
+      position: absolute;
+      left: 0;
+      bottom: -2px;
+    }
+    .nav-link:hover, .nav-link:focus {
+      color: var(--accent) !important;
+    }
+    .nav-link:hover::after, .nav-link:focus::after {
+      width: 100%;
+    }
+    .btn-primary {
+      background: var(--primary) !important;
+      border-color: var(--primary) !important;
+      border-radius: var(--border-radius);
+      font-weight: 600;
+      transition: background var(--transition), border var(--transition);
+    }
+    .btn-primary:hover, .btn-primary:focus {
+      background: var(--primary-dark) !important;
+      border-color: var(--accent) !important;
+      color: #fff !important;
+    }
+    main {
+      margin-top: 56px;
+    }
+    section {
+      padding: clamp(2rem, 5vw, 4rem) 0;
+    }
+    .section-title h1 {
+      color: var(--primary);
+      font-size: 2.2rem;
+      font-weight: 700;
+      margin-bottom: 1.5rem;
+    }
+    .lead {
+      font-size: 1.25rem;
+      color: var(--text-main);
+      margin-bottom: 1.5rem;
+    }
+    .hero-attorney {
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 60vh;
+      background: url('hero2.jpeg') center center/cover no-repeat;
+      /* No border-radius for squared look */
+      box-shadow: var(--shadow);
+      margin-bottom: 2rem;
+      padding: 0;
+      overflow: hidden;
+    }
+    .hero-attorney .hero-overlay {
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(120deg, rgba(18,62,8,0.85) 60%, rgba(30,30,30,0.7) 100%);
+      z-index: 1;
+    }
+    .hero-attorney .hero-content {
+      position: relative;
+      z-index: 2;
+      color: #fff;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 60vh;
+    }
+    .hero-attorney .hero-logo {
+      display: none;
+    }
+    .hero-attorney h1 {
+      color: #fff;
+      font-size: clamp(2.2rem, 5vw, 3.2rem);
+      font-weight: 700;
+      margin-bottom: 0.5em;
+      text-shadow: 0 2px 16px rgba(0,0,0,0.25);
+    }
+    .hero-attorney .lead {
+      color: #fff;
+      font-size: 1.5rem;
+      margin-bottom: 2rem;
+      text-shadow: 0 2px 8px rgba(0,0,0,0.18);
+    }
+    @media (max-width: 600px) {
+      .hero-attorney .hero-logo {
+        max-width: 120px;
+      }
+      .hero-attorney h1 {
+        font-size: 2rem;
+      }
+      .hero-attorney .lead {
+        font-size: 1.1rem;
+      }
+    }
+    @media (min-width: 992px) {
+      .hero-attorney {
+        background-position: center 30%;
+      }
+    }
+    .about-img {
+      border-radius: 1rem;
+      box-shadow: var(--shadow);
+      width: 100%;
+      max-width: 350px;
+      height: auto;
+      display: block;
+      margin: 0 auto;
+    }
+    .card {
+      border-radius: var(--border-radius);
+      box-shadow: var(--shadow);
+      border: 1px solid var(--accent);
+      transition: transform var(--transition), box-shadow var(--transition);
+      background: #fff;
+      min-height: 100%;
+    }
+    .card:hover {
+      transform: translateY(-8px) scale(1.04) rotate(-1deg);
+      box-shadow: 0 8px 40px 0 rgba(18,62,8,0.18), 0 1.5px 0 0 var(--accent);
+      border-color: var(--primary);
+      z-index: 2;
+    }
+    .card:active {
+      transform: scale(0.98);
+    }
+    .card-title {
+      color: var(--primary);
+      font-weight: 600;
+      font-size: 1.2rem;
+    }
+    .card-text {
+      color: var(--text-muted);
+    }
+    .services-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 2rem;
+      margin-top: 2rem;
+    }
+    .contact-section {
+      display: flex;
+      gap: 2rem;
+      align-items: stretch;
+    }
+    @media (max-width: 900px) {
+      .contact-section {
+        flex-direction: column;
+      }
+    }
+    .contact-panel, .contact-form-panel {
+      background: none;
+      border-radius: 16px;
+      box-shadow: 0 2px 16px 0 rgba(18,62,8,0.07);
+      padding: 2rem 1.5rem;
+      flex: 1 1 0;
+      min-width: 320px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      font-size: 1.05rem;
+      color: var(--text-main);
+    }
+    .contact-form-panel form {
+      flex: 1 1 0;
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+    }
+    .contact-form-panel button {
+      margin-top: 1rem;
+      width: 100%;
+      font-size: 1.1rem;
+      padding: 0.75rem 0;
+      border-radius: 8px;
+      transition: background 0.2s;
+    }
+    .contact-form-panel button:hover {
+      background: var(--primary-dark) !important;
+    }
+    .contact-panel iframe {
+      border-radius: 8px;
+      margin-top: 1rem;
+    }
+    .footer {
+      background: var(--primary);
+      color: #fff;
+      padding: 2rem 0 1rem 0;
+      margin-top: 3rem;
+      border-radius: var(--border-radius) var(--border-radius) 0 0;
+    }
+    .footer .nav-link {
+      color: #fff !important;
+      font-size: 1rem;
+      margin: 0 0.5rem;
+    }
+    .footer .nav-link:hover {
+      color: var(--accent) !important;
+    }
+    .footer .border-bottom-gold {
+      border-bottom: 1px solid var(--accent);
+    }
+    .footer .text-muted {
+      color: #e0e0e0 !important;
+    }
+    .anchor {
+      display: block;
+      position: relative;
+      top: -90px;
+      visibility: hidden;
+    }
+    /* Subtle fade-in for sections */
+    section, .footer {
+      animation: fadeIn 0.7s cubic-bezier(.4,0,.2,1);
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(24px); }
+      to { opacity: 1; transform: none; }
+    }
+    .section-divider {
+      background: transparent;
+      line-height: 0;
+      margin: 0;
+      padding: 0;
+    }
+    .section-title-accent {
+      position: relative;
+      display: inline-block;
+    }
+    .section-title-accent:after {
+      content: '';
+      display: block;
+      margin: 0.5rem auto 0 auto;
+      width: 60px;
+      height: 4px;
+      background: var(--accent);
+      border-radius: 2px;
+    }
+    .accent-bar-left {
+      width: 6px;
+      min-height: 120px;
+      background: var(--accent);
+      border-radius: 4px;
+      margin-bottom: 1rem;
+      margin-right: 1rem;
+      display: block;
+    }
+    .section-title-left {
+      width: 100%;
+    }
+    .fade-in {
+      opacity: 0;
+      animation: fadeIn 1.2s cubic-bezier(.4,0,.2,1) forwards;
+    }
+    .services-grid .card.fade-in {
+      animation-delay: 0.2s;
+    }
+    .services-grid .card.fade-in:nth-child(2) { animation-delay: 0.4s; }
+    .services-grid .card.fade-in:nth-child(3) { animation-delay: 0.6s; }
+    .services-grid .card.fade-in:nth-child(4) { animation-delay: 0.8s; }
+    .services-grid .card.fade-in:nth-child(5) { animation-delay: 1s; }
+    .text-justify {
+      text-align: justify;
+    }
+    .address-box {
+      background: #f8f9fa;
+      border-radius: 12px;
+      padding: 1rem 1.5rem;
+      box-shadow: 0 2px 12px 0 rgba(18,62,8,0.06);
+      margin-bottom: 1.5rem;
+      border: 1px solid #e6e6e6;
+      min-width: 220px;
+      max-width: 100%;
+    }
+    .address-icon {
+      color: var(--accent);
+      flex-shrink: 0;
+      margin-top: 2px;
+    }
+    .contact-panel a {
+      color: var(--primary);
+      font-weight: 600;
+      text-decoration: none;
+      transition: color 0.2s, text-decoration 0.2s;
+      word-break: break-all;
+    }
+    .contact-panel a:hover {
+      color: var(--accent);
+      text-decoration: underline;
+    }
+    .contact-panel .fw-semibold, .contact-panel .fw-bold {
+      color: var(--text-main);
+      font-weight: 600 !important;
+      letter-spacing: 0.01em;
+    }
+    .contact-panel span, .contact-panel .ms-1 {
+      font-size: 1.04rem;
+    }
+    .contact-panel .mb-3 {
+      margin-bottom: 1.1rem !important;
+    }
+    .contact-panel .address-box {
+      margin-bottom: 1.3rem !important;
+    }
+    .footer-credits {
+      font-size: 1rem;
+      color: #e0e0e0;
+      opacity: 0.85;
+    }
+    .footer-credit-text {
+      color: #e0e0e0;
+      letter-spacing: 0.01em;
+    }
+    .footer-hr {
+      border-top: 1px solid #beaa6d33;
+      margin: 0 auto 1rem auto;
+      width: 100%;
+      max-width: 320px;
+    }
+  </style>
 </head>
-
 <body>
-  <!-- Navbar -->
   <header>
     <nav class="navbar navbar-expand-sm navbar-custom fixed-top p-2">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">
           <img src="logo_white.svg" alt="Kancelaria Adwokacka Marzena Litewka" width="100%" height="100%">
         </a>
-        <button class="navbar-toggler custom-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample03" aria-controls="#navbarsExample03" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler custom-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample03" aria-controls="navbarsExample03" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse justify-content-end pe-3" id="navbarsExample03">
@@ -188,245 +445,223 @@
         </div>
       </div>
     </nav>
-    <!-- Navbar end -->
   </header>
-
   <main>
-    <section>
-      <div class="container-fluid pt-5">
-        <div class="pt-5 row flex-lg-row align-items-center g-5 py-5 border-bottom border-success">
-          <h1></h1>
-            <h1 class="display-5 fw-bold lh-1 mb-0 mt-5">Adwokat Marzena Litewka</h1>
-            <p class="lead">Kancelaria Adwokacka</p>
-            <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-              <a class="btn btn-primary btn-lg" href="#kontakt" role="button">Skontaktuj się</a>
-            </div>
-        </div>
+    <section class="hero hero-attorney">
+      <div class="hero-overlay"></div>
+      <div class="hero-content container text-center">
+        <h1>Adwokat Marzena Litewka</h1>
+        <p class="lead">Kancelaria Adwokacka</p>
+        <a class="btn btn-primary btn-lg mt-2" href="#kontakt" role="button">Skontaktuj się</a>
       </div>
-
     </section>
-      <section>
-        <a class="anchor" id="o_mnie"></a>
-        <div class="container-fluid bg-white px-5 py-3 border-bottom border-success">
-
-          <div class="row">
-            <div class="col-lg-8 col-sm-8 p-3">
-              <div class="section-title pt-3">
-                <h1 class="container pb-3 text-center">O mnie</h1>
-              </div>
-              <p>
-                Ukończyłam studia na Wydziale Prawa i Administracji Uniwersytetu Jagiellońskiego w Krakowie na kierunku Prawo. Następnie odbyłam aplikację adwokacką przy Okręgowej Radzie Adwokackiej w Krakowie, zdobywając w tym czasie cenne doświadczenie w renomowanych kancelariach adwokackich.  W 2022 r. złożyłam pozytywnie egzamin zawodowy i zostałam wpisana na listę adwokatów Krakowskiej Izby Adwokackiej.
-              <p>
-                Swoją ofertę kieruję do klientów indywidualnych i przedsiębiorców.
-                Gwarantuję profesjonalizm oraz pełne zaangażowanie w prowadzenie powierzonych mi spraw. Każdej sprawie poświęcam dużo czasu i uwagi, dogłębnie analizując wszystkie jej aspekty.
-                Moja Kancelaria zapewni Ci nie tylko wsparcie prawne i ochronę interesów, ale również pozwoli uwolnić się od ciężaru osobistego zaangażowania w długotrwałe i skomplikowane procedury.
-              </p>
-            </div>
-            <div class="col-sm-4 col-lg-4 p-3">
-              <img src="hero2.jpeg" class="d-block mx-lg-auto mx-sm-auto img-fluid" width="100%" height="100px" loading="lazy" style="border-radius: 5%">
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section>
-        <a class="anchor" id="zakres_uslug"></a>
-        <div class="container-fluid bg-white px-5 py-3">
-          <div class="section-title pt-3">
-            <h1 class="container pb-3 text-center">Zakres usług</h1>
-          </div>
-          <p>
-              Wychodząc naprzeciw potrzebom i oczekiwaniom Klientów oferuję kompleksową obsługę prawną z zakresu:
-          </p>
-          <div class="container-fluid bg-white px-5 py-3 border-bottom border-success">
-
-            <div class="row p-1">
-              <div class="col-lg-4 col-sm-12 p-3">
-                <div class="card border-success">
-                  <div class="card-body">
-                      <h5><img src="icons8-courthouse-32.png" class="center"/></h5>
-                    <h5 class="card-title">Prawo cywilne</h5>
-                    <p class="card-text">Udzielam kompleksowej pomocy prawnej z zakresu szeroko rozumianego prawa cywilnego.</p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-lg-4 col-sm-12 p-3">
-                <div class="card border-success">
-                  <div class="card-body">
-                    <h5><img src="icons8-family-32.png" class="center"/></h5>
-                    <h5 class="card-title">Prawo rodzinne</h5>
-                    <p class="card-text">Dużą uwagę podczas wykonywania praktyki adwokackiej poświęcam sprawom rodzinnym.</p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-lg-4 col-sm-12 p-3">
-                <div class="card border-success">
-                  <div class="card-body">
-                    <h5><img src="icons8-agreement-32.png" class="center"/></h5>
-                    <h5 class="card-title">Prawo gospodarcze</h5>
-                    <p class="card-text">Wspieram przedsiębiorców w zagadnieniach dotyczących szeroko rozumianego prawa gospodarczego.</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="row p-1">
-              <div class="col-lg-4 col-sm-12 p-3">
-                <div class="card border-success">
-                  <div class="card-body">
-                    <h5><img src="icons8-act-others-32.png" class="center"/></h5>
-                    <h5 class="card-title">Obsługa przedsiębiorców </h5>
-                    <p class="card-text">Kancelaria kieruje swoją ofertę do przedsiębiorców. Oferuję stałą lub doraźną obsługę prawną - w zależności od potrzeb Klientów.</p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-lg-4 col-sm-12 p-3">
-                <div class="card border-success">
-                  <div class="card-body">
-                    <h5><img src="icons8-gavel-creatype-two-colour-32.png" class="center"/></h5>
-                    <h5 class="card-title">Prawo karne</h5>
-                    <p class="card-text">Prowadzę praktykę zawodową z zakresu prawa karnego. Swoje usługi adresuję do osób pokrzywdzonych, podejrzanych i oskarżonych.</p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-lg-4 col-sm-4 p-3">
-
-              </div>
-            </div>
-
-          </div>
-        </div>
-      </section>
-
-      <section>
-        <a class="anchor" id="kontakt"></a>
-        <div class="container-fluid bg-white px-5 py-3">
-          <div class="section-title pt-3">
-            <h1 class="container pb-3 text-center">Kontakt</h1>
-            <p>
-              Potrzebujecie Państwo pomocy prawnej?
-            </p>
-            <p>
-              Zapraszam do nawiązania kontaktu z moją Kancelarią Adwokacką. Do Państwa dyspozycji pozostawiam formularz kontaktowy, numer telefonu oraz adres e-mail.
-            </p>
-          </div>
-          <div class="container-fluid">
-            <div class="row">
-              <div class="col-lg-7 col-md-12 pt-4">
-                <form action="https://formsubmit.co/5dbadfa6b857ed9dc7ab8b44e40956e4" method="POST">
-                  <div class="form-floating mb-3 col-lg-11 col-sm-12 ">
-                    <input type="text" class="form-control" id="nameInput" name="imie i nazwisko" aria-describedby="emailHelp" placeholder="Imię i nazwisko">
-                    <label for="nameInput">Imię i nazwisko</label>
-                  </div>
-                  <div class="form-floating mb-3 col-lg-11">
-                    <input type="email" class="form-control" id="emailInput" name="email" aria-describedby="emailHelp" placeholder="Email">
-                    <label for="emailInput">Email</label>
-                  </div>
-                  <div class="form-floating mb-3 col-lg-11">
-                    <input type="text" class="form-control" id="phoneInput" name="telefon" aria-describedby="emailHelp" placeholder="Telefon">
-                    <label for="phoneInput">Telefon</label>
-                  </div>
-                  <div class="form-floating mb-3">
-                    <div class="col-lg-11">
-                      <textarea name="user-message" id="user-message" name="opis" class="form-control" rows="5" placeholder="Opis sytuacji"></textarea>
-                    </div><!--end col 10-->
-                  </div>
-                  <div class="col-lg-11 col-sm-12">
-                    <button type="submit" class="btn btn-primary float-end col-lg-5 col-sm-2">Wyślij</button>
-                  </div>
-                </form>
-              </div>
-              <div class="col-lg-5 col-sm-12">
-                <svg xmlns="http://www.w3.org/2000/svg" style="margin-top:-8px; color:#beaa6d;" width="20" height="20" fill="currentColor" class="bi bi-geo-alt" viewBox="0 0 16 16">
-                  <path d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A31.493 31.493 0 0 1 8 14.58a31.481 31.481 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94zM8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10z"></path>
-                  <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"></path>
-                </svg>
-                <span class="fs-5 mb-0">
-                  Adres:
-                </span>
-                <div class="row mt-1 MS-2">
-                  <p class="ms-4">
-                    al. płk. Władysława Beliny-Prażmowskiego 59/2a
-                  </p>
-                </div>
-                <div class="row">
-                  <p class="ms-4">
-                    31-514 Kraków
-                  </p>
-                </div>
-                  <div class="row">
-                    <div class="col-lg-12 col-sm-12">
-                      <div class="pb-3">
-                        <svg xmlns="http://www.w3.org/2000/svg" style="margin-top:-8px; color:#beaa6d;" width="20" height="20" fill="currentColor" class="bi bi-telephone" viewBox="0 0 16 16">
-                          <path d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
-                        </svg>
-                        <span class="fs-5 ps-1">
-                          Telefon:
-                        </span>
-                        <span class="ms-1">
-                          <a href="tel: +48 536 390 990" class="gold_link">+48 536 390 990</a>
-                        </span>
-                      </div>
-                      <div class="pb-3">
-                        <svg xmlns="http://www.w3.org/2000/svg" style="margin-top:-8px; color:#beaa6d;" width="20" height="20" fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
-                          <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z"/>
-                        </svg>
-                        <span class="fs-5 ps-1">
-                          E-mail:
-                        </span>
-                        <span class="ms-1">
-                          <a href="mailto: adwokat@marzena-litewka.pl" class="gold_link">adwokat@marzena-litewka.pl</a>
-                        </span>
-                      </div>
-                      <div class="pb-3">
-                        <svg xmlns="http://www.w3.org/2000/svg" style="margin-top:-8px; color:#beaa6d;" width="20" height="20" fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
-                          <path d="M6.5 1A1.5 1.5 0 0 0 5 2.5V3H1.5A1.5 1.5 0 0 0 0 4.5v8A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5v-8A1.5 1.5 0 0 0 14.5 3H11v-.5A1.5 1.5 0 0 0 9.5 1h-3zm0 1h3a.5.5 0 0 1 .5.5V3H6v-.5a.5.5 0 0 1 .5-.5zm1.886 6.914L15 7.151V12.5a.5.5 0 0 1-.5.5h-13a.5.5 0 0 1-.5-.5V7.15l6.614 1.764a1.5 1.5 0 0 0 .772 0zM1.5 4h13a.5.5 0 0 1 .5.5v1.616L8.129 7.948a.5.5 0 0 1-.258 0L1 6.116V4.5a.5.5 0 0 1 .5-.5z"/>
-                        </svg>
-                        <span class="fs-5 ps-1">
-                          NIP:
-                        </span>
-                        <span class="p_class">
-                            6793252537
-                        </span>
-                      </div>
-                      <div class="pb-3">
-                        <svg xmlns="http://www.w3.org/2000/svg" style="margin-top:-8px; color:#beaa6d;" width="20" height="20" fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
-                          <path d="M9.669.864 8 0 6.331.864l-1.858.282-.842 1.68-1.337 1.32L2.6 6l-.306 1.854 1.337 1.32.842 1.68 1.858.282L8 12l1.669-.864 1.858-.282.842-1.68 1.337-1.32L13.4 6l.306-1.854-1.337-1.32-.842-1.68L9.669.864zm1.196 1.193.684 1.365 1.086 1.072L12.387 6l.248 1.506-1.086 1.072-.684 1.365-1.51.229L8 10.874l-1.355-.702-1.51-.229-.684-1.365-1.086-1.072L3.614 6l-.25-1.506 1.087-1.072.684-1.365 1.51-.229L8 1.126l1.356.702 1.509.229z"/>
-                          <path d="M4 11.794V16l4-1 4 1v-4.206l-2.018.306L8 13.126 6.018 12.1 4 11.794z"/>
-                        </svg>
-                        <span class="fs-5 ps-1">
-                          Numer wpisu:
-                        </span>
-                        <span class="p_class">
-                            KRA/Adw/4058
-                        </span>
-                      </div>
-                      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2560.7154835459814!2d19.9592247!3d50.0728898!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47165b1fcee8a63d%3A0x7b5127fe4b57cb48!2sAleja%20Pu%C5%82kownika%20W%C5%82adys%C5%82awa%20Beliny-Pra%C5%BCmowskiego%2059%2C%2031-517%20Krak%C3%B3w!5e0!3m2!1spl!2spl!4v1669579473094!5m2!1spl!2spl"
-                        class="w-100" height="200" width="200" allowfullscreen="" loading="lazy"></iframe>
-                      </div>
-                    </div>
-                </div>
-            </div>
-          </div>
-
-
-        </div>
-      </section>
-      <div class="container-fluid" style="background: #123e08">
-        <footer class="py-3 my-4">
-          <ul class="nav justify-content-center border-bottom-gold pb-3 mb-3">
-            <li class="nav-item"><a href="#zakres_uslug" class="nav-link px-2 text-muted">Zakres usług</a></li>
-            <li class="nav-item"><a href="#o_mnie" class="nav-link px-2 text-muted">O mnie</a></li>
-            <li class="nav-item"><a href="#kontakt" class="nav-link px-2 text-muted">Kontakt</a></li>
-            <li class="nav-item"><a href="polityka_prywatnosci.html" class="nav-link px-2 text-muted">Polityka prywatności</a></li>
-          </ul>
-          <p class="text-center text-muted">2022 Kancelaria Marzena Litewka</p>
-          <div style="color:#123e70;">
-            <a target="_blank" href="https://icons8.com/icon/Qo6dWTUbSh7p/agreement" style="color:#123e70;">agreement</a> icon by <a target="_blank" href="https://icons8.com" style="color:#123e70;">Icons8</a>
-          </div>
-        </footer>
-      </div>
+    <!-- Fancy SVG Divider -->
+    <div class="section-divider">
+      <svg viewBox="0 0 1440 80" fill="none" xmlns="http://www.w3.org/2000/svg" style="display:block;width:100%;height:40px;"><path d="M0,40 C480,120 960,0 1440,40 L1440,80 L0,80 Z" fill="#fff"/></svg>
     </div>
+    <section>
+      <a class="anchor" id="o_mnie"></a>
+      <div class="container">
+        <div class="row align-items-center g-5">
+          <div class="col-lg-7 col-md-12">
+            <div class="d-flex align-items-start">
+              <div class="accent-bar-left mb-3 flex-shrink-0"></div>
+              <div class="section-title section-title-left ms-3">
+                <h1 class="section-title-accent text-start">O mnie</h1>
+                <p class="text-justify">
+                  Ukończyłam studia na Wydziale Prawa i Administracji Uniwersytetu Jagiellońskiego w Krakowie na kierunku Prawo. Następnie odbyłam aplikację adwokacką przy Okręgowej Radzie Adwokackiej w Krakowie, zdobywając w tym czasie cenne doświadczenie w renomowanych kancelariach adwokackich.  W 2022 r. złożyłam pozytywnie egzamin zawodowy i zostałam wpisana na listę adwokatów Krakowskiej Izby Adwokackiej.
+                </p>
+                <p class="text-justify">
+                  Swoją ofertę kieruję do klientów indywidualnych i przedsiębiorców. Gwarantuję profesjonalizm oraz pełne zaangażowanie w prowadzenie powierzonych mi spraw. Każdej sprawie poświęcam dużo czasu i uwagi, dogłębnie analizując wszystkie jej aspekty. Moja Kancelaria zapewni Ci nie tylko wsparcie prawne i ochronę interesów, ale również pozwoli uwolnić się od ciężaru osobistego zaangażowania w długotrwałe i skomplikowane procedury.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-5 col-md-12 text-center">
+            <img src="hero2.jpeg" class="about-img fade-in" alt="Adwokat Marzena Litewka">
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Fancy SVG Divider -->
+    <div class="section-divider">
+      <svg viewBox="0 0 1440 80" fill="none" xmlns="http://www.w3.org/2000/svg" style="display:block;width:100%;height:40px;"><path d="M0,40 C480,0 960,120 1440,40 L1440,80 L0,80 Z" fill="#fff"/></svg>
+    </div>
+    <section>
+      <a class="anchor" id="zakres_uslug"></a>
+      <div class="container">
+        <div class="section-title text-center">
+          <h1 class="section-title-accent">Zakres usług</h1>
+        </div>
+        <p class="text-center">
+          Wychodząc naprzeciw potrzebom i oczekiwaniom Klientów oferuję kompleksową obsługę prawną z zakresu:
+        </p>
+        <div class="services-grid mx-auto" style="max-width:1200px;">
+          <div class="card fade-in">
+            <div class="card-body">
+              <h5><img src="icons8-courthouse-32.png" alt="Prawo cywilne"/></h5>
+              <h5 class="card-title">Prawo cywilne</h5>
+              <p class="card-text">Udzielam kompleksowej pomocy prawnej z zakresu szeroko rozumianego prawa cywilnego.</p>
+            </div>
+          </div>
+          <div class="card fade-in">
+            <div class="card-body">
+              <h5><img src="icons8-family-32.png" alt="Prawo rodzinne"/></h5>
+              <h5 class="card-title">Prawo rodzinne</h5>
+              <p class="card-text">Dużą uwagę podczas wykonywania praktyki adwokackiej poświęcam sprawom rodzinnym.</p>
+            </div>
+          </div>
+          <div class="card fade-in">
+            <div class="card-body">
+              <h5><img src="icons8-agreement-32.png" alt="Prawo gospodarcze"/></h5>
+              <h5 class="card-title">Prawo gospodarcze</h5>
+              <p class="card-text">Wspieram przedsiębiorców w zagadnieniach dotyczących szeroko rozumianego prawa gospodarczego.</p>
+            </div>
+          </div>
+          <div class="card fade-in">
+            <div class="card-body">
+              <h5><img src="icons8-act-others-32.png" alt="Obsługa przedsiębiorców"/></h5>
+              <h5 class="card-title">Obsługa przedsiębiorców</h5>
+              <p class="card-text">Kancelaria kieruje swoją ofertę do przedsiębiorców. Oferuję stałą lub doraźną obsługę prawną - w zależności od potrzeb Klientów.</p>
+            </div>
+          </div>
+          <div class="card fade-in">
+            <div class="card-body">
+              <h5><img src="icons8-gavel-creatype-two-colour-32.png" alt="Prawo karne"/></h5>
+              <h5 class="card-title">Prawo karne</h5>
+              <p class="card-text">Prowadzę praktykę zawodową z zakresu prawa karnego. Swoje usługi adresuję do osób pokrzywdzonych, podejrzanych i oskarżonych.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Fancy SVG Divider -->
+    <div class="section-divider">
+      <svg viewBox="0 0 1440 80" fill="none" xmlns="http://www.w3.org/2000/svg" style="display:block;width:100%;height:40px;"><path d="M0,40 C480,120 960,0 1440,40 L1440,80 L0,80 Z" fill="#fff"/></svg>
+    </div>
+    <section>
+      <a class="anchor" id="kontakt"></a>
+      <div class="container">
+        <div class="section-title text-center">
+          <h1 class="section-title-accent">Kontakt</h1>
+          <p class="text-center">
+            Potrzebujecie Państwo pomocy prawnej?
+          </p>
+          <p class="text-center">
+            Zapraszam do nawiązania kontaktu z moją Kancelarią Adwokacką. Do Państwa dyspozycji pozostawiam formularz kontaktowy, numer telefonu oraz adres e-mail.
+          </p>
+        </div>
+        <div class="contact-section mx-auto" style="max-width:1200px;">
+          <div class="contact-form-panel">
+            <form action="https://formsubmit.co/5dbadfa6b857ed9dc7ab8b44e40956e4" method="POST" class="needs-validation" novalidate>
+              <div class="form-floating mb-3">
+                <input type="text" class="form-control" id="nameInput" name="imie i nazwisko" placeholder="Imię i nazwisko" required>
+                <label for="nameInput">Imię i nazwisko</label>
+              </div>
+              <div class="form-floating mb-3">
+                <input type="email" class="form-control" id="emailInput" name="email" placeholder="Email" required>
+                <label for="emailInput">Email</label>
+              </div>
+              <div class="form-floating mb-3">
+                <input type="text" class="form-control" id="phoneInput" name="telefon" placeholder="Telefon">
+                <label for="phoneInput">Telefon</label>
+              </div>
+              <div class="form-floating mb-3">
+                <textarea name="opis" id="user-message" class="form-control" rows="5" placeholder="Opis sytuacji" style="height: 120px" required></textarea>
+                <label for="user-message">Opis sytuacji</label>
+              </div>
+              <button type="submit" class="btn btn-primary w-100">Wyślij</button>
+            </form>
+          </div>
+          <div class="contact-panel">
+            <div class="address-box d-flex align-items-start mb-3">
+              <div class="address-icon me-3">
+                <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="currentColor" class="bi bi-geo-alt" viewBox="0 0 16 16">
+                  <path d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A31.493 31.493 0 0 1 8 14.58a31.481 31.481 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94zM8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10z"/>
+                  <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+                </svg>
+              </div>
+              <div>
+                <div class="fw-bold" style="font-size:1.1rem;">al. płk. Władysława Beliny-Prażmowskiego 59/2a</div>
+                <div class="fw-bold" style="font-size:1.1rem;">31-514 Kraków</div>
+              </div>
+            </div>
+            <div class="mb-3 d-flex align-items-center">
+              <span class="me-2" style="color:var(--accent);">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-telephone" viewBox="0 0 16 16">
+                  <path d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
+                </svg>
+              </span>
+              <span class="fw-semibold">Telefon:</span>
+              <a href="tel:+48536390990" class="ms-1">+48 536 390 990</a>
+            </div>
+            <div class="mb-3 d-flex align-items-center">
+              <span class="me-2" style="color:var(--accent);">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
+                  <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z"/>
+                </svg>
+              </span>
+              <span class="fw-semibold">E-mail:</span>
+              <a href="mailto:adwokat@marzena-litewka.pl" class="ms-1">adwokat@marzena-litewka.pl</a>
+            </div>
+            <div class="mb-3 d-flex align-items-center">
+              <span class="me-2" style="color:var(--accent);">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-card-list" viewBox="0 0 16 16">
+                  <path d="M14 4.5V14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V4.5H14zm-1-1H3a1 1 0 0 0-1 1V14a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V4.5a1 1 0 0 0-1-1z"/>
+                  <path d="M5 7.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5zm0 2a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5zm0 2a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5z"/>
+                </svg>
+              </span>
+              <span class="fw-semibold">NIP:</span>
+              <span class="ms-1">6793252537</span>
+            </div>
+            <div class="mb-3 d-flex align-items-center">
+              <span class="me-2" style="color:var(--accent);">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-card-checklist" viewBox="0 0 16 16">
+                  <path d="M10.854 6.146a.5.5 0 0 0-.708.708l1 1a.5.5 0 0 0 .708 0l2-2a.5.5 0 0 0-.708-.708L11.5 6.793l-.646-.647z"/>
+                  <path d="M14 4.5V14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V4.5H14zm-1-1H3a1 1 0 0 0-1 1V14a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V4.5a1 1 0 0 0-1-1z"/>
+                </svg>
+              </span>
+              <span class="fw-semibold">Numer wpisu:</span>
+              <span class="ms-1">KRA/Adw/4058</span>
+            </div>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2560.7154835459814!2d19.9592247!3d50.0728898!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47165b1fcee8a63d%3A0x7b5127fe4b57cb48!2sAleja%20Pu%C5%82kownika%20W%C5%82adys%C5%82awa%20Beliny-Pra%C5%BCmowskiego%2059%2C%2031-517%20Krak%C3%B3w!5e0!3m2!1spl!2spl!4v1669579473094!5m2!1spl!2spl" class="w-100" height="200" style="border-radius: 0.5rem; border:0;" allowfullscreen="" loading="lazy"></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="container">
+        <ul class="nav justify-content-center border-bottom-gold pb-3 mb-3">
+          <li class="nav-item"><a href="#zakres_uslug" class="nav-link">Zakres usług</a></li>
+          <li class="nav-item"><a href="#o_mnie" class="nav-link">O mnie</a></li>
+          <li class="nav-item"><a href="#kontakt" class="nav-link">Kontakt</a></li>
+          <li class="nav-item"><a href="polityka_prywatnosci.html" class="nav-link">Polityka prywatności</a></li>
+        </ul>
+        <p class="text-center text-muted mb-2">2022 Kancelaria Marzena Litewka</p>
+        <div style="color:#123e70; text-align:center;">
+          <a target="_blank" href="https://icons8.com/icon/Qo6dWTUbSh7p/agreement" style="color:#123e70;">agreement</a> icon by <a target="_blank" href="https://icons8.com" style="color:#123e70;">Icons8</a>
+        </div>
+        <div class="footer-credits mt-4 pt-3 text-center">
+          <hr class="footer-hr" style="border: none; border-top: 1px solid #beaa6d33; margin: 0 auto 1rem auto; width: 100%; max-width: 320px;">
+          <span class="footer-credit-text">Strona stworzona przez <a href="https://marzeta.pl" target="_blank" rel="noopener" style="font-weight:600; color:var(--accent); text-decoration:none;">MarzTech</a>, 2025.</span>
+        </div>
+      </div>
+    </footer>
   </main>
 
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+      var navLinks = document.querySelectorAll('.navbar-collapse .nav-link');
+      var navbarCollapse = document.querySelector('.navbar-collapse');
+      navLinks.forEach(function(link) {
+        link.addEventListener('click', function() {
+          if (navbarCollapse.classList.contains('show')) {
+            var bsCollapse = bootstrap.Collapse.getOrCreateInstance(navbarCollapse);
+            bsCollapse.hide();
+          }
+        });
+      });
+    });
+  </script>
 </body>
 </html>
