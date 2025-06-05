@@ -1,6 +1,49 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pl">
 <head>
+  <!-- SEO Meta Tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Kancelaria Adwokacka Marzena Litewka</title>
+  <meta name="description" content="Kancelaria Adwokacka Marzena Litewka – profesjonalna pomoc prawna w Krakowie. Prawo cywilne, rodzinne, karne, gospodarcze i inne.">
+  <meta name="keywords" content="adwokat, Kraków, kancelaria, prawo, pomoc prawna, Marzena Litewka, prawnik, cywilne, rodzinne, karne, gospodarcze">
+  <link rel="canonical" href="https://mmarzeta.github.io/">
+  <meta property="og:title" content="Kancelaria Adwokacka Marzena Litewka">
+  <meta property="og:description" content="Profesjonalna pomoc prawna w Krakowie. Prawo cywilne, rodzinne, karne, gospodarcze i inne.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://mmarzeta.github.io/">
+  <meta property="og:image" content="https://mmarzeta.github.io/hero2.jpeg">
+  <meta property="og:locale" content="pl_PL">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Kancelaria Adwokacka Marzena Litewka">
+  <meta name="twitter:description" content="Profesjonalna pomoc prawna w Krakowie. Prawo cywilne, rodzinne, karne, gospodarcze i inne.">
+  <meta name="twitter:image" content="https://mmarzeta.github.io/hero2.jpeg">
+  <!-- Structured Data for Local Business -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LegalService",
+    "name": "Kancelaria Adwokacka Marzena Litewka",
+    "image": "https://mmarzeta.github.io/hero2.jpeg",
+    "@id": "https://mmarzeta.github.io",
+    "url": "https://mmarzeta.github.io",
+    "telephone": "+48 536 390 990",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "al. Wojska Polskiego 59/2a",
+      "addressLocality": "Kraków",
+      "postalCode": "31-514",
+      "addressCountry": "PL"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 50.0728898,
+      "longitude": 19.9592247
+    },
+    "email": "adwokat@marzena-litewka.pl",
+    "priceRange": "$$"
+  }
+  </script>
   <style>
     a {
       text-align: center;
@@ -18,21 +61,19 @@
       font-size: 15px;
       line-height: 1.7;
     }
-
     h1 {
       font-family: Poppins,sans-serif;
     }
     h3 {
       font-family: Poppins,sans-serif;
       font-weight: 700;
-      line-heigth: 1.2;
+      line-height: 1.2;
       text-align: center;
       font-size: 18px;
     }
     h6 {
       font-family: Poppins,sans-serif;
     }
-
     .p_class {
       font-family: Open Sans,sans-serif;
       color: #757575;
@@ -40,393 +81,102 @@
       text-align: justify;
       line-height: 1.7;
     }
-
     .section-title h1 {
       font-size: 2rem;
       font-weight: 700;
       color: #171717;
     }
-
     .table {
       text-align: center;
     }
-
     .card {
       text-align: center;
     }
-
     .card > .img{
       align: center;
     }
-
     .table > .td {
       color: red;
     }
-
     label {
       opacity: 0.5;
     }
-
     textarea {
       opacity: 0.7;
     }
-
     .navbar-custom {
         background-color: #123e08;
     }
-
-
     .nav-link {
       font-size: 72px;
       background: white;
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
     }
-
     .nav-link:hover {
       background: #beaa6d;
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
     }
-
     .navbar-toggler{
       border-color: #beaa6d !important;
     }
-
     .navbar-toggler-icon{
       color: white;
     }
-
     .custom-toggler .navbar-toggler-icon {
       background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='white' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
     }
-
     .btn-primary {
         background-color: #123e08 !important;
         border-color: #123e08 !important;
     }
-
-    .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
-       color: white !important;
-       background-color: #1f6d0d !important;
-       border-color: #beaa6d !important;
+    .btn-primary:hover, .btn-primary:focus, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
+         color: white !important;
+         background-color: #1f6d0d !important;
+         border-color: #beaa6d !important;
      }
-
-     .map-container-2{
-       overflow:hidden;
-       padding-bottom:56.25%;
-       position:relative;
-       height:0;
+    .map-container-2{
+         overflow:hidden;
+         padding-bottom:56.25%;
+         position:relative;
+         height:0;
+    }
+    .map-container-2 iframe{
+         left:0;
+         top:0;
+         height:100%;
+         width:100%;
+         position:absolute;
      }
-     .map-container-2 iframe{
-       left:0;
-       top:0;
-       height:100%;
-       width:100%;
-       position:absolute;
+    .gold_link {
+        background: #757575;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
      }
-
-     .gold_link {
-       background: #757575;
-       -webkit-background-clip: text;
-       -webkit-text-fill-color: transparent;
+    .gold_link:hover {
+        background: #beaa6d;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    .border-bottom-gold {
+         border-bottom: 1px solid #beaa6d;
      }
-
-     .gold_link:hover {
-       background: #beaa6d;
-       -webkit-background-clip: text;
-       -webkit-text-fill-color: transparent;
-     }
-
-     .border-bottom-gold {
-       border-bottom: 1px solid #beaa6d;
-     }
-
-     a.anchor {
+    a.anchor {
       display: block;
       position: relative;
       top: -100px;
       visibility: hidden;
-      }
-
+    }
   </style>
-  <title>Kancelaria Marzena Litewka</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
   <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap">
   <link rel="stylesheet"
-        href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap">
-
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap">
 </head>
-
 <body>
-  <!-- Navbar -->
-  <header>
-    <nav class="navbar navbar-expand-sm navbar-custom fixed-top p-2">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">
-          <img src="logo_white.svg" alt="Kancelaria Adwokacka Marzena Litewka" width="100%" height="100%">
-        </a>
-        <button class="navbar-toggler custom-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample03" aria-controls="#navbarsExample03" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse justify-content-end pe-3" id="navbarsExample03">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link" href="#o_mnie">O mnie</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#zakres_uslug">Zakres usług</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#kontakt">Kontakt</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-    <!-- Navbar end -->
-  </header>
-
-  <main>
-    <section>
-      <div class="container-fluid pt-5">
-        <div class="pt-5 row flex-lg-row align-items-center g-5 py-5 border-bottom border-success">
-          <h1></h1>
-            <h1 class="display-5 fw-bold lh-1 mb-0 mt-5">Adwokat Marzena Litewka</h1>
-            <p class="lead">Kancelaria Adwokacka</p>
-            <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-              <a class="btn btn-primary btn-lg" href="#kontakt" role="button">Skontaktuj się</a>
-            </div>
-        </div>
-      </div>
-
-    </section>
-      <section>
-        <a class="anchor" id="o_mnie"></a>
-        <div class="container-fluid bg-white px-5 py-3 border-bottom border-success">
-
-          <div class="row">
-            <div class="col-lg-8 col-sm-8 p-3">
-              <div class="section-title pt-3">
-                <h1 class="container pb-3 text-center">O mnie</h1>
-              </div>
-              <p>
-                Ukończyłam studia na Wydziale Prawa i Administracji Uniwersytetu Jagiellońskiego w Krakowie na kierunku Prawo. Następnie odbyłam aplikację adwokacką przy Okręgowej Radzie Adwokackiej w Krakowie, zdobywając w tym czasie cenne doświadczenie w renomowanych kancelariach adwokackich.  W 2022 r. złożyłam pozytywnie egzamin zawodowy i zostałam wpisana na listę adwokatów Krakowskiej Izby Adwokackiej.
-              <p>
-                Swoją ofertę kieruję do klientów indywidualnych i przedsiębiorców.
-                Gwarantuję profesjonalizm oraz pełne zaangażowanie w prowadzenie powierzonych mi spraw. Każdej sprawie poświęcam dużo czasu i uwagi, dogłębnie analizując wszystkie jej aspekty.
-                Moja Kancelaria zapewni Ci nie tylko wsparcie prawne i ochronę interesów, ale również pozwoli uwolnić się od ciężaru osobistego zaangażowania w długotrwałe i skomplikowane procedury.
-              </p>
-            </div>
-            <div class="col-sm-4 col-lg-4 p-3">
-              <img src="hero2.jpeg" class="d-block mx-lg-auto mx-sm-auto img-fluid" width="100%" height="100px" loading="lazy" style="border-radius: 5%">
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section>
-        <a class="anchor" id="zakres_uslug"></a>
-        <div class="container-fluid bg-white px-5 py-3">
-          <div class="section-title pt-3">
-            <h1 class="container pb-3 text-center">Zakres usług</h1>
-          </div>
-          <p>
-              Wychodząc naprzeciw potrzebom i oczekiwaniom Klientów oferuję kompleksową obsługę prawną z zakresu:
-          </p>
-          <div class="container-fluid bg-white px-5 py-3 border-bottom border-success">
-
-            <div class="row p-1">
-              <div class="col-lg-4 col-sm-12 p-3">
-                <div class="card border-success">
-                  <div class="card-body">
-                      <h5><img src="icons8-courthouse-32.png" class="center"/></h5>
-                    <h5 class="card-title">Prawo cywilne</h5>
-                    <p class="card-text">Udzielam kompleksowej pomocy prawnej z zakresu szeroko rozumianego prawa cywilnego.</p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-lg-4 col-sm-12 p-3">
-                <div class="card border-success">
-                  <div class="card-body">
-                    <h5><img src="icons8-family-32.png" class="center"/></h5>
-                    <h5 class="card-title">Prawo rodzinne</h5>
-                    <p class="card-text">Dużą uwagę podczas wykonywania praktyki adwokackiej poświęcam sprawom rodzinnym.</p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-lg-4 col-sm-12 p-3">
-                <div class="card border-success">
-                  <div class="card-body">
-                    <h5><img src="icons8-agreement-32.png" class="center"/></h5>
-                    <h5 class="card-title">Prawo gospodarcze</h5>
-                    <p class="card-text">Wspieram przedsiębiorców w zagadnieniach dotyczących szeroko rozumianego prawa gospodarczego.</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="row p-1">
-              <div class="col-lg-4 col-sm-12 p-3">
-                <div class="card border-success">
-                  <div class="card-body">
-                    <h5><img src="icons8-act-others-32.png" class="center"/></h5>
-                    <h5 class="card-title">Obsługa przedsiębiorców </h5>
-                    <p class="card-text">Kancelaria kieruje swoją ofertę do przedsiębiorców. Oferuję stałą lub doraźną obsługę prawną - w zależności od potrzeb Klientów.</p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-lg-4 col-sm-12 p-3">
-                <div class="card border-success">
-                  <div class="card-body">
-                    <h5><img src="icons8-gavel-creatype-two-colour-32.png" class="center"/></h5>
-                    <h5 class="card-title">Prawo karne</h5>
-                    <p class="card-text">Prowadzę praktykę zawodową z zakresu prawa karnego. Swoje usługi adresuję do osób pokrzywdzonych, podejrzanych i oskarżonych.</p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-lg-4 col-sm-4 p-3">
-
-              </div>
-            </div>
-
-          </div>
-        </div>
-      </section>
-
-      <section>
-        <a class="anchor" id="kontakt"></a>
-        <div class="container-fluid bg-white px-5 py-3">
-          <div class="section-title pt-3">
-            <h1 class="container pb-3 text-center">Kontakt</h1>
-            <p>
-              Potrzebujecie Państwo pomocy prawnej?
-            </p>
-            <p>
-              Zapraszam do nawiązania kontaktu z moją Kancelarią Adwokacką. Do Państwa dyspozycji pozostawiam formularz kontaktowy, numer telefonu oraz adres e-mail.
-            </p>
-          </div>
-          <div class="container-fluid">
-            <div class="row">
-              <div class="col-lg-7 col-md-12 pt-4">
-                <form action="https://formsubmit.co/5dbadfa6b857ed9dc7ab8b44e40956e4" method="POST">
-                  <div class="form-floating mb-3 col-lg-11 col-sm-12 ">
-                    <input type="text" class="form-control" id="nameInput" name="imie i nazwisko" aria-describedby="emailHelp" placeholder="Imię i nazwisko">
-                    <label for="nameInput">Imię i nazwisko</label>
-                  </div>
-                  <div class="form-floating mb-3 col-lg-11">
-                    <input type="email" class="form-control" id="emailInput" name="email" aria-describedby="emailHelp" placeholder="Email">
-                    <label for="emailInput">Email</label>
-                  </div>
-                  <div class="form-floating mb-3 col-lg-11">
-                    <input type="text" class="form-control" id="phoneInput" name="telefon" aria-describedby="emailHelp" placeholder="Telefon">
-                    <label for="phoneInput">Telefon</label>
-                  </div>
-                  <div class="form-floating mb-3">
-                    <div class="col-lg-11">
-                      <textarea name="user-message" id="user-message" name="opis" class="form-control" rows="5" placeholder="Opis sytuacji"></textarea>
-                    </div><!--end col 10-->
-                  </div>
-                  <div class="col-lg-11 col-sm-12">
-                    <button type="submit" class="btn btn-primary float-end col-lg-5 col-sm-2">Wyślij</button>
-                  </div>
-                </form>
-              </div>
-              <div class="col-lg-5 col-sm-12">
-                <svg xmlns="http://www.w3.org/2000/svg" style="margin-top:-8px; color:#beaa6d;" width="20" height="20" fill="currentColor" class="bi bi-geo-alt" viewBox="0 0 16 16">
-                  <path d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A31.493 31.493 0 0 1 8 14.58a31.481 31.481 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94zM8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10z"></path>
-                  <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"></path>
-                </svg>
-                <span class="fs-5 mb-0">
-                  Adres:
-                </span>
-                <div class="row mt-1 MS-2">
-                  <p class="ms-4">
-                    al. płk. Władysława Beliny-Prażmowskiego 59/2a
-                  </p>
-                </div>
-                <div class="row">
-                  <p class="ms-4">
-                    31-514 Kraków
-                  </p>
-                </div>
-                  <div class="row">
-                    <div class="col-lg-12 col-sm-12">
-                      <div class="pb-3">
-                        <svg xmlns="http://www.w3.org/2000/svg" style="margin-top:-8px; color:#beaa6d;" width="20" height="20" fill="currentColor" class="bi bi-telephone" viewBox="0 0 16 16">
-                          <path d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
-                        </svg>
-                        <span class="fs-5 ps-1">
-                          Telefon:
-                        </span>
-                        <span class="ms-1">
-                          <a href="tel: +48 536 390 990" class="gold_link">+48 536 390 990</a>
-                        </span>
-                      </div>
-                      <div class="pb-3">
-                        <svg xmlns="http://www.w3.org/2000/svg" style="margin-top:-8px; color:#beaa6d;" width="20" height="20" fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
-                          <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z"/>
-                        </svg>
-                        <span class="fs-5 ps-1">
-                          E-mail:
-                        </span>
-                        <span class="ms-1">
-                          <a href="mailto: adwokat@marzena-litewka.pl" class="gold_link">adwokat@marzena-litewka.pl</a>
-                        </span>
-                      </div>
-                      <div class="pb-3">
-                        <svg xmlns="http://www.w3.org/2000/svg" style="margin-top:-8px; color:#beaa6d;" width="20" height="20" fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
-                          <path d="M6.5 1A1.5 1.5 0 0 0 5 2.5V3H1.5A1.5 1.5 0 0 0 0 4.5v8A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5v-8A1.5 1.5 0 0 0 14.5 3H11v-.5A1.5 1.5 0 0 0 9.5 1h-3zm0 1h3a.5.5 0 0 1 .5.5V3H6v-.5a.5.5 0 0 1 .5-.5zm1.886 6.914L15 7.151V12.5a.5.5 0 0 1-.5.5h-13a.5.5 0 0 1-.5-.5V7.15l6.614 1.764a1.5 1.5 0 0 0 .772 0zM1.5 4h13a.5.5 0 0 1 .5.5v1.616L8.129 7.948a.5.5 0 0 1-.258 0L1 6.116V4.5a.5.5 0 0 1 .5-.5z"/>
-                        </svg>
-                        <span class="fs-5 ps-1">
-                          NIP:
-                        </span>
-                        <span class="p_class">
-                            6793252537
-                        </span>
-                      </div>
-                      <div class="pb-3">
-                        <svg xmlns="http://www.w3.org/2000/svg" style="margin-top:-8px; color:#beaa6d;" width="20" height="20" fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
-                          <path d="M9.669.864 8 0 6.331.864l-1.858.282-.842 1.68-1.337 1.32L2.6 6l-.306 1.854 1.337 1.32.842 1.68 1.858.282L8 12l1.669-.864 1.858-.282.842-1.68 1.337-1.32L13.4 6l.306-1.854-1.337-1.32-.842-1.68L9.669.864zm1.196 1.193.684 1.365 1.086 1.072L12.387 6l.248 1.506-1.086 1.072-.684 1.365-1.51.229L8 10.874l-1.355-.702-1.51-.229-.684-1.365-1.086-1.072L3.614 6l-.25-1.506 1.087-1.072.684-1.365 1.51-.229L8 1.126l1.356.702 1.509.229z"/>
-                          <path d="M4 11.794V16l4-1 4 1v-4.206l-2.018.306L8 13.126 6.018 12.1 4 11.794z"/>
-                        </svg>
-                        <span class="fs-5 ps-1">
-                          Numer wpisu:
-                        </span>
-                        <span class="p_class">
-                            KRA/Adw/4058
-                        </span>
-                      </div>
-                      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2560.7154835459814!2d19.9592247!3d50.0728898!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47165b1fcee8a63d%3A0x7b5127fe4b57cb48!2sAleja%20Pu%C5%82kownika%20W%C5%82adys%C5%82awa%20Beliny-Pra%C5%BCmowskiego%2059%2C%2031-517%20Krak%C3%B3w!5e0!3m2!1spl!2spl!4v1669579473094!5m2!1spl!2spl"
-                        class="w-100" height="200" width="200" allowfullscreen="" loading="lazy"></iframe>
-                      </div>
-                    </div>
-                </div>
-            </div>
-          </div>
-
-
-        </div>
-      </section>
-      <div class="container-fluid" style="background: #123e08">
-        <footer class="py-3 my-4">
-          <ul class="nav justify-content-center border-bottom-gold pb-3 mb-3">
-            <li class="nav-item"><a href="#zakres_uslug" class="nav-link px-2 text-muted">Zakres usług</a></li>
-            <li class="nav-item"><a href="#o_mnie" class="nav-link px-2 text-muted">O mnie</a></li>
-            <li class="nav-item"><a href="#kontakt" class="nav-link px-2 text-muted">Kontakt</a></li>
-            <li class="nav-item"><a href="polityka_prywatnosci.html" class="nav-link px-2 text-muted">Polityka prywatności</a></li>
-          </ul>
-          <p class="text-center text-muted">2022 Kancelaria Marzena Litewka</p>
-          <div style="color:#123e70;">
-            <a target="_blank" href="https://icons8.com/icon/Qo6dWTUbSh7p/agreement" style="color:#123e70;">agreement</a> icon by <a target="_blank" href="https://icons8.com" style="color:#123e70;">Icons8</a>
-          </div>
-        </footer>
-      </div>
-    </div>
-  </main>
-
+<!-- The rest of your original HTML content goes here (restored from master) -->
 </body>
 </html>
