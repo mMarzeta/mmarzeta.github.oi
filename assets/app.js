@@ -52,6 +52,15 @@ document.addEventListener('DOMContentLoaded', function() {
     loadPartialInto('header', 'partials/header.html'),
     loadPartialInto('footer.footer', 'partials/footer.html')
   ]).then(function() {
+    // update CSS var for header height to prevent anchor clipping under fixed navbar
+    var updateHeaderHeightVar = function() {
+      var header = document.querySelector('header');
+      if (!header) return;
+      var h = header.getBoundingClientRect().height;
+      document.documentElement.style.setProperty('--header-h', h + 'px');
+    };
+    updateHeaderHeightVar();
+    window.addEventListener('resize', updateHeaderHeightVar);
     adjustLinksForNonIndex();
     initializeNavbarCollapse();
     updateYearRange();
